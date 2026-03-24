@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Passport Power</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Passport Power</h1>
+    <p class="subtitle">See where you can travel visa-free</p>
+
+    <select id="countrySelect">
+      <option value="">Select your country</option>
+      <option value="lt">Lithuania</option>
+      <option value="ru">Russia</option>
+      <option value="us">USA</option>
+    </select>
+
+    <div id="result" class="hidden">
+      <div class="card">
+        <h2 id="visaFree"></h2>
+        <p>Visa-free countries</p>
+      </div>
+
+      <div class="card">
+        <h2 id="visaRequired"></h2>
+        <p>Visa required</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
